@@ -1,0 +1,8 @@
+{
+    "Rinkeby" : {
+        "infura_url_ws" : ""
+    },
+    "Mainnet" : {
+        "infura_url_ws" : ""
+    }
+}

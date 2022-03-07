@@ -1,0 +1,365 @@
+<div class="d-flex" id="wrapper">
+  <!-- Sidebar-->
+  <div class="bg-black" id="sidebar-wrapper">
+    <div class="sidebar-heading bg-black">ABC PROJECT</div>
+    <div class="sidebar-footer bg-black">
+      <a class="btn btn-lg btn-outline" href="#!"
+        ><span class="fa fa-user icon"></span>0x4569.....3659</a
+      >
+      <a class="btn btn-lg btn-sidebar active" href="#!"
+        ><span class="fa fa-wallet icon"></span>Transaction</a
+      >
+      <a class="btn btn-lg btn-sidebar" href="#!"
+        ><span class="fa fa-sync icon"></span>Swap</a
+      >
+      <a class="btn btn-lg btn-sidebar" href="#!"
+        ><span class="fa fa-coins icon"></span>Liquidity</a
+      >
+      <a class="btn btn-lg btn-sidebar" href="#!"
+        ><span class="fa fa-seedling icon"></span>Farm</a
+      >
+      <a class="btn btn-lg btn-sidebar" href="#!"
+        ><span class="fa fa-link icon"></span>Bridge</a
+      >
+      <a class="btn btn-lg btn-sidebar" href="#!"
+        ><span class="fa fa-piggy-bank icon"></span>Staking</a
+      >
+      <a class="btn btn-lg btn-logout bottom-position"
+        ><span class="fa fa-sign-out-alt icon"></span>Logout</a
+      >
+    </div>
+  </div>
+  <!-- Page content wrapper-->
+  <div id="page-content-wrapper">
+    <!-- Top navigation-->
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <i class="fa fa-bars fa-2x" id="sidebarToggle"></i>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link btn btn-sm btn-123 mr-5px" href="#!"
+              >123 <span class="fa fa-gas-pump"></span
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link btn btn-sm btn-connect"
+              href="#!"
+              data-toggle="modal"
+              data-target="#ConnectModal"
+              >Connect Wallet</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Page content-->
+    <div class="right-side">
+      <div class="container-fluid">
+        <div class="row mt-4">
+          <h1>Staking</h1>
+          <p>Stake ABC Tokens and earn rewards</p>
+        </div>
+        <div class="row mt-5">
+          <div class="left">
+            <i class="fa fa-circle fa-4x"></i>
+          </div>
+          <div class="right">
+            <h4>ABC Staking</h4>
+            <span class="badge btn-connect">ETH Mainnet</span>
+            <span class="badge"
+              >Contract Mainnet <i class="fa fa-external-link-alt"></i
+            ></span>
+            <span class="badge">APY: 27.90%</span>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <div class="card box-1">
+              <form>
+                <div class="card-body">
+                  <div class="btn-group btn-group-flex">
+                    <button type="button" class="btn btn-flexible">
+                      Flexible
+                    </button>
+                    <button type="button" class="btn btn-locked">Locked</button>
+                  </div>
+                  <div class="form-group mt-3">
+                    <label class="float-left">Lock for: 52 weeks</label>
+                    <label class="float-right">Weight: 2</label>
+                    <input
+                      type="range"
+                      class="custom-range"
+                      id="customRange1"
+                    />
+                  </div>
+                  <div class="form-group mt-3">
+                    <label class="float-left">Amount</label>
+                    <label class="float-right">Balance: 0.0</label>
+                    <div class="input-group">
+                      <input
+                        type="text"
+                        class="form-control input-amount"
+                        value="1000"
+                      />
+                      <div class="input-group-append">
+                        <span
+                          class="input-group-text input-group-main-text"
+                          id="basic-addon2"
+                          ><i class="fa fa-circle"></i> &nbsp;ABC</span
+                        >
+                      </div>
+                    </div>
+                    <small class="form-text"
+                      >Insufficient funds, your balance is 0 ABC</small
+                    >
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h4 class="float-left">Est. APR</h4>
+                      <h4 class="float-right">190.49%</h4>
+                    </div>
+                  </div>
+                  <div class="row mt-2">
+                    <div class="col-md-6">
+                      <button type="button" class="btn btn-approve btn-block">
+                        Approve
+                      </button>
+                    </div>
+                    <div class="col-md-6">
+                      <button type="button" class="btn btn-deposit btn-block">
+                        Deposit
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card box-1">
+              <div class="card-header">
+                <div class="row text-center">
+                  <div class="col-md-2">
+                    <i class="fa fa-circle fa-3x"></i>
+                  </div>
+                  <div class="col-md-3">
+                    <h4>0</h4>
+                    <span>ABC Staked</span>
+                  </div>
+                  <div class="col-md-3">
+                    <h4>0</h4>
+                    <span>Open Claims</span>
+                  </div>
+                  <div class="col-md-4">
+                    <button type="button" class="btn btn-approve btn-block">
+                      Claim
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-6 mx-auto">
+                    <img src="assets/img/trophy.png" />
+                    <h1 class="mt-2">5.35</h1>
+                    <small>per week</small>
+                  </div>
+                  <div class="col-md-6 mx-auto">
+                    <img src="assets/img/trophy.png" />
+                    <h1 class="mt-2">22.39</h1>
+                    <small>per month</small>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="text-center pt-2">
+                      <small>Your approximate reward (by $34.06)</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row my-4">
+          <div class="col-md-12">
+            <div id="accordion">
+              <div class="card accordion">
+                <div class="card-header accordion-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link"
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      <i class="fa fa-chevron-up"></i> &nbsp;About this staking
+                      pool
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseOne"
+                  class="collapse show"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label>Total Staking rewards</label>
+                              <div class="input-group">
+                                <input
+                                  type="text"
+                                  class="form-control input-about"
+                                  value="Default input"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label>Total Pool Liquidity</label>
+                              <div class="input-group">
+                                <input
+                                  type="text"
+                                  class="form-control input-about"
+                                  value="Default input"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label>Withdrawal Fee</label>
+                              <div class="input-group">
+                                <input
+                                  type="text"
+                                  class="form-control input-about"
+                                  value="0%"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <label>Staking address</label>
+                            <div class="input-group">
+                              <input
+                                type="text"
+                                class="form-control input-about"
+                                value="0x3501E123872634T238772634723482723434"
+                              />
+                              <div class="input-group-append">
+                                <span
+                                  class="
+                                    input-group-text input-group-about-text
+                                  "
+                                  id="basic-addon2"
+                                  ><i class="fa fa-external-link-alt"></i
+                                ></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-12">
+                            <label>Token address</label>
+                            <div class="input-group">
+                              <input
+                                type="text"
+                                class="form-control input-about"
+                                value="0x3501E123872634T238772634723482723434"
+                              />
+                              <div class="input-group-append">
+                                <span
+                                  class="
+                                    input-group-text input-group-about-text
+                                  "
+                                  id="basic-addon2"
+                                  ><i class="fa fa-external-link-alt"></i
+                                ></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mt-3">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label>Token Rate</label>
+                          <p>1 ABC <i class="fa fa-circle"></i> = $0.03</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div
+    class="modal fade"
+    id="ConnectModal"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog" role="document">
+      <div class="modal-content bg-black">
+        <div class="modal-header">
+          <h4 class="modal-title" id="exampleModalLabel">Select Wallet</h4>
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Connect to the site below with one of our available wallet
+            providers.
+          </p>
+          <ul class="list-group">
+            <li
+              class="
+                list-group-item
+                d-flex
+                justify-content-between
+                align-items-center
+                wallet-list
+              "
+            >
+              Metamask
+              <img src="assets/img/metamask.png" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
